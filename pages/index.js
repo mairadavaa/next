@@ -4,6 +4,8 @@ import styles from '../styles/Home.module.css'
 import Homes from './home'
 export default function Home() {
   return (
-      <Homes/>
+    <div className={styles.container}>
+          <Homes/>
+    </div>
   )
 }
